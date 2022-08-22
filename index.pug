@@ -1,0 +1,16 @@
+doctype html
+html(lang="en")
+    head
+        include ./views/partials/head
+        include ./views/partials/noscript
+        
+    body 
+        // To include all SVGs as an sprite
+        //- svg 
+        
+        main.app
+            // To implement smooth-scrolling
+            .app__wrapper
+                include ./views/partials/mask
+
+        script(src="main.js") 
