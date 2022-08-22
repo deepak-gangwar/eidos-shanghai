@@ -1,50 +1,17 @@
 body {
-    background-color: $color-primary;
-    color: $color-accent;
-    font-family: $suisse;
-    -webkit-touch-callout: none; /* iOS Safari */
-    -webkit-user-select: none; /* Safari */
-    -khtml-user-select: none; /* Konqueror HTML */
-    -moz-user-select: none; /* Old versions of Firefox */
-    -ms-user-select: none; /* Internet Explorer/Edge */
-    user-select: none;
-}
-
-@media only screen and (max-width: 480px) {
-  .app__wrapper {
-    margin: 0 12.5vw;
-  }
-} 
-
-@media only screen and (max-width: 600px) {
-  br {
-      display: none;
-  }
-}
-
-a {
-  text-decoration: none;
-  color: inherit;
-}
-
-ul, ol {
-    list-style: none;
-}
-
-pre {
   font-family: $suisse;
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Old versions of Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none;
 }
 
-// body::-webkit-scrollbar {
-//   width: 0.8em;
-// }
- 
-// body::-webkit-scrollbar-track {
-//   background-color: $color-primary;
-// }
- 
-// body::-webkit-scrollbar-thumb {
-//   background-color: $color-accent;
-//   border-radius: 1em;
-//   border: 2px solid $color-primary;
-// }
+audio, canvas, iframe, img, svg, video {
+  vertical-align: middle;
+}
+
+video {
+  object-fit: contain;
+}
