@@ -3,7 +3,7 @@
 A image/video texture mask made with OGL (WebGL) ❤
 
 ### 👀 Live
-See it live!
+[See it live!](mask.deepakgangwar.me)
 
 ### 🛠 Installation
 
