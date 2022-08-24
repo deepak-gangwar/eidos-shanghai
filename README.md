@@ -1,8 +1,9 @@
-# Deepak Gangwar Frontend Developer Portfolio '22
+# 🌿 WebGL image/video texture mask 
 
-Deepak Gangwar is a frontend developer working with brands and individuals across the world. Individual with an eye for good design and passionate about motion and delivering immersive experiences for the we. Accepting freelance work since July 2022.
+### 👀 Live
+See it live!
 
-### Installation
+### 🛠 Installation
 
 ```bash
 # Clone the repo on you local machine
@@ -17,3 +18,6 @@ npm run dev
 # To build the project (output in public folder)
 npm run build
 ```
+
+
+👏 Great work, proud of you.
