@@ -1,5 +1,7 @@
 # 🌿 WebGL image/video texture mask 
 
+A image/video texture mask made with OGL (WebGL) ❤
+
 ### 👀 Live
 See it live!
 
@@ -7,7 +9,7 @@ See it live!
 
 ```bash
 # Clone the repo on you local machine
-git clone git@github.com:deepak-gangwar/portfolio22.git
+git clone git@github.com:deepak-gangwar/webgl-mask.git
 
 # To install dependencies
 npm install
