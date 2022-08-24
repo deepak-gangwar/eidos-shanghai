@@ -1,9 +1,13 @@
+// import Gl from "./components/mask"
+import webgl from "./components/webgl"
+
 class App {
     constructor() {
         this.init()
     }
 
     init() {
+        new webgl
     }
 
 }
