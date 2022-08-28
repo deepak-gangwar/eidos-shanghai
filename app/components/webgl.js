@@ -121,15 +121,16 @@ export default class webgl {
         
         // basic trigonometry
         // this gives the width of plane that would cover the whole screen based on z position
-        const i = 2 * Math.tan(fovInRadian / 2) * z
+        const height = 2 * Math.tan(fovInRadian / 2) * z
 
-        return { width: i * this.camera.aspect, height: i }
+        return { width: height * this.camera.aspect, height: height }
     }
 
     updateSize() {
+        this.gap = 0
         this.camUnit = this.calculateUnitSize(this.camera.position.z)
-        // this.planeBCR.width = this.camUnit.width - this.camUnit.width * (this.gap / 100)
-        this.planeBCR.width = this.camUnit.width
+        this.planeBCR.width = this.camUnit.width - this.camUnit.width * (this.gap / 100)
+        // this.planeBCR.width = this.camUnit.width
         this.planeBCR.height = this.planeBCR.width / this.camera.aspect
 
         this.geometry = new ogl.Plane(this.gl, { width: this.planeBCR.width, height: this.planeBCR.height, widthSegments: 100, heightSegments: 100 })
